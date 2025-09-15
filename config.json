@@ -1,47 +1,35 @@
 {
   "theme": {
     "backgroundColor": "#121212",
-    "mainProgressColor": "#61DAFB",
-    "completedColor": "#00FF7F",
-    "activeColor": "#ffffff",
-    "inactiveColor": "#666666",
-    "headingColor": "#F0F0F0"
-  },
-  "layout": {
-    "horizontalPadding": 20,
-    "verticalPadding": 20,
-    "spacingBetweenSteps": 15
+    "activeProgressColor": "#00FF7F",
+    "fontColor": "#ffffff",
+    "taskColor": "#61DAFB"
   },
   "routine": [
     {
       "name": "Banheiro",
       "duration": 5,
-      "color": "#4FC3F7",
-      "iconUrl": "https://lucide.dev/icons/toilet.svg"
+      "emoji": "🚽"
     },
     {
       "name": "Roupa",
       "duration": 10,
-      "color": "#81C784",
-      "iconUrl": "https://lucide.dev/icons/shirt.svg"
+      "emoji": "👕"
     },
     {
       "name": "Dentes",
       "duration": 5,
-      "color": "#FFD54F",
-      "iconUrl": "https://lucide.dev/icons/tooth.svg"
+      "emoji": "🪥"
     },
     {
       "name": "Café",
       "duration": 15,
-      "color": "#FF8A65",
-      "iconUrl": "https://lucide.dev/icons/coffee.svg"
+      "emoji": "☕"
     },
     {
       "name": "Tchau",
       "duration": 5,
-      "color": "#E57373",
-      "iconUrl": "https://lucide.dev/icons/hand-wave.svg"
+      "emoji": "❤️"
     }
   ]
 }
